@@ -1,0 +1,76 @@
+{
+    "comparison": {
+        "Support Vector Machine (Linear SVM)": {
+            "accuracy": 0.9714285714285715,
+            "accuracy_std": 0.03499271061118824,
+            "precision": 0.9692307692307693,
+            "recall": 1.0,
+            "f1_score": 0.984,
+            "inference_time_ms": 3.6423819405691966
+        },
+        "Random Forest Classifier": {
+            "accuracy": 0.9,
+            "accuracy_std": 0.0349927106111883,
+            "precision": 0.8967032967032967,
+            "recall": 1.0,
+            "f1_score": 0.9452307692307693,
+            "inference_time_ms": 18.446830340794154
+        }
+    },
+    "classification_reports": {
+        "Support Vector Machine (Linear SVM)": {
+            "Normal": {
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1-score": 0.8888888888888888,
+                "support": 10.0
+            },
+            "Defective": {
+                "precision": 0.967741935483871,
+                "recall": 1.0,
+                "f1-score": 0.9836065573770492,
+                "support": 60.0
+            },
+            "accuracy": 0.9714285714285714,
+            "macro avg": {
+                "precision": 0.9838709677419355,
+                "recall": 0.9,
+                "f1-score": 0.936247723132969,
+                "support": 70.0
+            },
+            "weighted avg": {
+                "precision": 0.9723502304147466,
+                "recall": 0.9714285714285714,
+                "f1-score": 0.9700754618787406,
+                "support": 70.0
+            }
+        },
+        "Random Forest Classifier": {
+            "Normal": {
+                "precision": 1.0,
+                "recall": 0.3,
+                "f1-score": 0.46153846153846156,
+                "support": 10.0
+            },
+            "Defective": {
+                "precision": 0.8955223880597015,
+                "recall": 1.0,
+                "f1-score": 0.9448818897637795,
+                "support": 60.0
+            },
+            "accuracy": 0.9,
+            "macro avg": {
+                "precision": 0.9477611940298507,
+                "recall": 0.65,
+                "f1-score": 0.7032101756511205,
+                "support": 70.0
+            },
+            "weighted avg": {
+                "precision": 0.9104477611940299,
+                "recall": 0.9,
+                "f1-score": 0.875832828588734,
+                "support": 70.0
+            }
+        }
+    }
+}
